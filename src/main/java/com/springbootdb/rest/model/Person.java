@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="persons")
 public class Person {
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+//	@GeneratedValue(strategy=GenerationType.AUTO)
 	int id;
 String name,dob;
 double salary;
